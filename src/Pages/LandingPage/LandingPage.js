@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import './LandingPage.scss'
 
 const NavBarComponent = React.lazy(() => import('../../Components/NavBarComponent'));

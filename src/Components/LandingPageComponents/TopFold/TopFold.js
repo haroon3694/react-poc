@@ -2,13 +2,36 @@ import React from 'react';
 
 import './TopFold.scss'
 
-import backgroundImg from '../../../assets/images/pattern.png'
+import profile from '../../../assets/images/profile.png'
+
+
 
 const TopFold = (props) => {
 
   return (
-    <div className="top-fold-component" style={{ backgroundImage: `url(${backgroundImg})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>  
+    <div className="container-fluid bghero" style={{position: 'relative'}}>
+      <div className="container" style={{position: 'absolute', top:' 30%', left:'10%'}}>
+          <div className="row">
+            <div className="col-md-6">
+              <div style={{color: 'red'}}>
+                <h6>
+                    LEARN FROM ANYWHERE
+                </h6> 
+                <h1 className="display-4">
+                  DREAM UP
+                </h1>
+                <div>
+                Ambition accepted. Learn the latest skills to reach your Professional goals
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <img src={profile} className="img-fluid" alt=""/>
+            </div>
+          </div>
+      </div>
     </div>
+    
   );
 }
 

@@ -1,8 +1,16 @@
 @media only screen and (min-width: 901px){
-    nav {
-        height: 150px !important;
+ 
+    .black{
+        color: #000000 !important;
     }
+
+    .white{
+        color: white !important;
+    }
+
 }
+
+
 
 .nav-top-container {
 
@@ -10,6 +18,7 @@
 
     button {
         background-color: #000000 !important;
+        border-radius: 0px !important;
         border: 0px !important;
         font-weight: 100 !important;
     }
@@ -25,13 +34,9 @@
     }
 
     @media only screen and (min-width: 992px){
-        button {
-            font-size: 1.5rem !important;
-            padding: 15px 30px 15px 30px !important;
-        }
 
         .nav-img {
-            width: 200px !important;
+            width: 160px !important;
         }
     }
         
