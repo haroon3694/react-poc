@@ -1,0 +1,49 @@
+nav {
+    background-color: #000000;
+}
+
+@media only screen and (min-width: 901px){
+    nav {
+        height: 150px !important;
+    }
+}
+
+.nav-top-container {
+
+    button {
+        background-color: #384AD3 !important;
+        border-radius: 50px !important;
+        border: 0px !important;
+        font-weight: 600 !important;
+    }
+
+    @media only screen and (max-width: 991px){
+        button {
+            font-size: .6rem !important;
+        }
+
+        .how{
+            margin-left: 10px !important;
+        }
+
+        .nav-img {
+            width: 100px !important;
+        }
+    }
+
+    @media only screen and (min-width: 992px){
+        button {
+            font-size: 1.5rem !important;
+            padding: 15px 60px 15px 60px !important;
+        }
+
+        .how{
+            margin-left: 50px !important;
+        }
+
+        .nav-img {
+            width: 200px !important;
+        }
+    }
+        
+}
